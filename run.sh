@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 # Di chuyen vao thu muc chua code
 cd ~/Desktop/DOAN
 
@@ -7,15 +7,15 @@ git reset --hard HEAD
 git clean -fd
 git pull
 
-#rm -rf venv
+# rm -rf venv
 # Tạo lại venv mới
-# python3 -m venv venv
+python3 -m venv venv
 
 # Kích hoạt lại venv
-# source ~/Desktop/DOAN/venv/bin/activate
+source ~/Desktop/DOAN/venv/bin/activate
 
 # Cai dat cac thu vien can thiet
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
 # Chay chuong trinh python
 python app.py
