@@ -6,3 +6,5 @@ venv
 captures/
 /captures
 ./raw
+/raw
+raw/
